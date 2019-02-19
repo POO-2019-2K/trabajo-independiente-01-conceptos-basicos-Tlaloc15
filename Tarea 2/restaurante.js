@@ -28,7 +28,7 @@ export default class Restaurante {
         let dias = Math.floor(dif / (1000 * 60 * 60 * 24));
         console.log(`${this.dias}`);
     }
-    _informacion(){
+    informacion(){
         console.log(`Reservacion:
         Nombre: ${this._nombre},
         Apellido: ${this._apellido},

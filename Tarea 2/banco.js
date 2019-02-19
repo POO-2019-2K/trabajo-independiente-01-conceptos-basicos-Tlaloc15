@@ -13,7 +13,7 @@ export default class Cuenta {
 
     }
 
-    _informacion(){
+    informacion(){
         console.log(`Cuenta bancaria:
         Nombre: ${this._nombre},
         Apellido: ${this._apellido},

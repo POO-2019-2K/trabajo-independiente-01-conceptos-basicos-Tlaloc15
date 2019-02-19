@@ -11,7 +11,7 @@ export default class empleados {
         this._hoy = "0";
     }
 
-    _informacion(){
+    informacion(){
         console.log(`Empleado:
         N°: ${this._numTrabajador},
         Nombre: ${this._nombre},
