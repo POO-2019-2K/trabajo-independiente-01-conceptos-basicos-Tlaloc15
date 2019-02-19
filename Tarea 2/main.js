@@ -28,10 +28,10 @@ cuenta1._informacion();
 cuenta1._saldoTotal = 2900;
 cuenta1._deposito = 1200;
 
-cuenta1.move1();
+cuenta1.movimiento1();
 console.log(`Tu saldo total es de ${cuenta1._saldoTotal} pesos`);
 cuenta1._retiro = 1270;
-cuenta1.move2();
+cuenta1.movimiento1();
 console.log(`Tu saldo total es de ${cuenta1._saldoTotal} pesos`);
 
 //Medico
@@ -41,3 +41,10 @@ paciente1._fechaCita = "Feb 20 2019";
 
 
 //viatico
+let viaticos1 = new Viaticos("Carlos", "Garcia", "Rapero", "18", "Carlos de la Madrid Brizuela #19", "312-194-13-76", "cgarcia47@ucol.mx")
+viaticos1.informacion();
+viaticos1._gastoParcial = 7900;
+viaticos1.gastoTotal = 17000;
+
+viaticos1.Viatico();
+console.log(`El gasto total es de ${viaticos1.gastoTotal} pesos`);

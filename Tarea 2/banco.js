@@ -45,7 +45,7 @@ export default class Cuenta {
     }
 
     Movimiento1(){
-        this._SaldoTotal = this._SaldoTota + this._deposito;
+        this._SaldoTotal = this._SaldoTotal + this._deposito;
     }
     Movimiento2(){
         this._SaldoTotal = this._SaldoTotal - this._retiro;
